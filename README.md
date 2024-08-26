@@ -1,8 +1,16 @@
-# React + Vite
+appwrite
+    |
+    |---> auth.js (this file is for authentication register , login , logout , getSession)
+    |---> dashbaord.js ()
+    for this file to be into the noted one please upload these changes to the github repository and also into the 
+    main branch and development01 branach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    stable branch --> 1)main ,development
+    developement branch --> 2) development01 , development02 , development03
 
-Currently, two official plugins are available:
+    
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+

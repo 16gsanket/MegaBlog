@@ -8,7 +8,7 @@ appwrite
     stable branch --> 1)main ,development
     developement branch --> 2) development01 , development02 , development03
 
-    
+    npm install react-redux @reduxjs/toolkit
 
 
 

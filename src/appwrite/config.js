@@ -1,5 +1,5 @@
 import conf from "../conf/conf";
-import {Account , Databases , Storage , Query, Client , ID} from "appwrite";
+import { Databases , Storage ,Query, Client , ID} from "appwrite";
 
 export class Service{
 
@@ -72,7 +72,7 @@ constructor(){
         }
     }
 
-    async getAllPosts(query = [query.equal("status" , "active")]){
+    async getAllPosts(query = [Query.equal("status" , "active")]){
         try{
             return await this.databases.listDocuments(conf.appWriteDatabaseID, conf.appWriteCollectionId, query)
         }catch(error){

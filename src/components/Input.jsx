@@ -1,10 +1,17 @@
 import React , {useId} from 'react'
+import ProtoTypes from 'prop-types'
+
+Input.propTypes = {
+    type: ProtoTypes.string.isRequired,
+    label: ProtoTypes.string,
+    className: ProtoTypes.string
+}
 
 const Input = React.forwardRef(function Input({
     label='',
     type='text',
     className = '',
-    ...props,
+    ...props
 
 }, ref ){
     const id = useId()
